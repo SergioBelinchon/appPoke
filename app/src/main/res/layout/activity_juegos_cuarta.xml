@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--android:background="@drawable/fondo_juegos_segunda"-->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/volverJuegosTercera"
+        android:onClick="onBackPressed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/textoDiamantePerla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/infoCuartaGen"
+                android:padding="8dp"
+                android:focusableInTouchMode="false"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+
+            <ImageView
+                android:id="@+id/caratulaPokemonDiamante"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/caratulaPokemonDiamante"
+                android:src="@drawable/caratula_pokemon_diamante" />
+
+            <ImageView
+                android:id="@+id/caratulaPokemonPerla"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/caratulaPokemonPerla"
+                android:src="@drawable/caratula_pokemon_perla" />
+
+            <EditText
+                android:id="@+id/textoPlatino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/infoPlatino"
+                android:padding="8dp"
+                android:focusableInTouchMode="false"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+
+            <ImageView
+                android:id="@+id/caratulaPokemonPlatino"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/caratulaPokemonPlatino"
+                android:src="@drawable/caratula_pokemon_platino" />
+
+            <EditText
+                android:id="@+id/gameplayPokemonDiamPerPla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/gameplayPokemonDiamPerPla"
+                android:padding="8dp"
+                android:focusableInTouchMode="false"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+
+            <ImageView
+                android:id="@+id/gameplayPokemonDiamantePerlaPlatino"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/gameplayPokemonDiamantePerlaPlatino"
+                android:src="@drawable/gameplay_pokemon_platino" />
+
+            <EditText
+                android:id="@+id/textoOroHeartgoldPlataSoulsilver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/infoOroHeartgoldPlataSoulsilver"
+                android:padding="8dp"
+                android:focusableInTouchMode="false"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+
+
+            <ImageView
+                android:id="@+id/caratulaPokemonOroHeartgold"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/caratulaPokemonOroHeartgold"
+                android:src="@drawable/caratula_pokemon_oro_heartgold" />
+
+            <ImageView
+                android:id="@+id/caratulaPokemonPlataSoulsilver"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/caratulaPokemonPlataSoulsilver"
+                android:src="@drawable/caratula_pokemon_plata_soulsilver" />
+
+
+            <EditText
+                android:id="@+id/gameplayPokemonOroHPlataS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/gameplayPokemonOroHPlataS"
+                android:padding="8dp"
+                android:focusableInTouchMode="false"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+
+            <ImageView
+                android:id="@+id/gameplayPokemonOroHePlataSo"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/gameplayPokemonOroHePlataSo"
+                android:src="@drawable/gameplay_pokemon_oro_heartgold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

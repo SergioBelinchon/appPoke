@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+    <!--
+    android:background="@drawable/fondo_juegos"-->
+
+
+
+<Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/volverJuegos"
+        android:onClick="onBackPressed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <Button
+        android:id="@+id/btnPrimeraGeneracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonPrimeraGenJuegos" />
+
+    <Button
+        android:id="@+id/btnSegundaGeneracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonSegundaGenJuegos" />
+
+    <Button
+        android:id="@+id/btnTerceraGeneracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonTerceraGenJuegos" />
+
+    <Button
+        android:id="@+id/btnCuartaGeneracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonCuartaGenJuegos" />
+
+        <Button
+            android:id="@+id/btnQuintaGeneracion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/botonQuintaGenJuegos" />
+    <!--
+            <Button
+                android:id="@+id/btnSextaGeneracion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/botonSextaGenJuegos" />
+
+            <Button
+                android:id="@+id/btnSeptimaGeneracion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/botonSeptimaGenJuegos" />
+
+            <Button
+                android:id="@+id/btnOctavaGeneracion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/botonOctavaGenJuegos" />
+
+            <Button
+                android:id="@+id/btnNovenaGeneracion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/botonNovenaGenJuegos" />
+        -->
+</LinearLayout>

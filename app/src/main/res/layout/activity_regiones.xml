@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".regiones.RegionesActivity">
+    <!--
+    android:background="@drawable/fondo_pokedex">
+-->
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/volverRegiones"
+        android:onClick="onBackPressed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <Button
+        android:id="@+id/btnKanto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonKanto" />
+
+    <Button
+        android:id="@+id/btnJohto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonJohto" />
+
+    <Button
+        android:id="@+id/btnHoenn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonHoenn" />
+
+    <Button
+        android:id="@+id/btnSinnoh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonShinnoh" />
+
+    <Button
+        android:id="@+id/btnTeselia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonTeselia" />
+
+    <Button
+        android:id="@+id/btnKalos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonKalos" />
+
+    <Button
+        android:id="@+id/btnAlola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonAlola" />
+
+    <Button
+        android:id="@+id/btnGalarHisui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonGalarHisui" />
+
+    <Button
+        android:id="@+id/btnPaldea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonPaldea" />
+
+</LinearLayout>

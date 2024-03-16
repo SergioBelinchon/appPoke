@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--android:background="@drawable/fondo_juegos_primera"-->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/volverJuegosPrimera"
+        android:onClick="onBackPressed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/textoDescripcionPrimeraGen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:focusableInTouchMode="false"
+                android:hint="@string/descPrimeraGen"
+                android:padding="8dp" />
+
+            <ImageView
+                android:id="@+id/caratulaPokemonRojo"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/caratulaPokemonRojo"
+                android:src="@drawable/caratula_pokemon_rojo"/>
+
+            <ImageView
+                android:id="@+id/caratulaPokemonVerde"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/caratulaPokemonVerde"
+                android:src="@drawable/caratula_pokemon_verde"/>
+
+            <ImageView
+                android:id="@+id/caratulaPokemonAzul"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/caratulaPokemonAzul"
+                android:src="@drawable/caratula_pokemon_azul"/>
+
+            <EditText
+                android:id="@+id/editTextGameplayPrimera"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:focusableInTouchMode="false"
+                android:hint="@string/fotoGameplayPrimeraGen"
+                android:padding="8dp" />
+
+            <ImageView
+                android:id="@+id/fotoGameplayRojo"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/fotoGameplayRojo"
+                android:src="@drawable/gameplay_rojo"/>
+
+
+            <EditText
+                android:id="@+id/textoPokAmarillo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/infoPokAmarillo"
+                android:padding="8dp"
+                android:focusableInTouchMode="false"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+
+            <ImageView
+                android:id="@+id/caratulaPokemonAmarillo"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/caratulaPokemonAmarillo"
+                android:src="@drawable/caratula_pokemon_amarillo"/>
+
+            <EditText
+                android:id="@+id/editTextGameplayPrimeraAmarillo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:focusableInTouchMode="false"
+                android:hint="@string/fotoGameplayPrimeragenAmarillo"
+                android:padding="8dp" />
+
+            <ImageView
+                android:id="@+id/fotoGameplayAmarillo"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/fotoGameplayAmarillo"
+                android:src="@drawable/gameplay_pokemon_amarillo"/>
+
+
+
+            <EditText
+                android:id="@+id/textoPrimeraGenOccidental"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:focusableInTouchMode="false"
+                android:hint="@string/pokemonOccidental"
+                android:padding="8dp" />
+
+            <ImageView
+                android:id="@+id/fotoCaratulaRojoOcc"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/fotoCaratulaPokemonRojoOcc"
+                android:src="@drawable/caratula_pokemon_rojo_occ"/>
+
+            <ImageView
+                android:id="@+id/fotoCaratulaAzulOcc"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/fotoCaratulaPokemonAzulOcc"
+                android:src="@drawable/caratula_pokemon_azul_occ"/>
+
+
+            <ImageView
+                android:id="@+id/fotoCaratulaAmarilloOcc"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/caratulaPokemonAmarilloOcc"
+                android:src="@drawable/caratula_pokemon_amarillo_occ"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

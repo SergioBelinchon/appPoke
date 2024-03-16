@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--android:background="@drawable/fondo_juegos_segunda"-->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/volverJuegosTercera"
+        android:onClick="onBackPressed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/textoRubiZafiro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/infoTerceraGen"
+                android:padding="8dp"
+                android:focusableInTouchMode="false"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+
+            <ImageView
+                android:id="@+id/caratulaPokemonRubi"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/caratulaPokemonRubi"
+                android:src="@drawable/caratula_pokemon_rubi" />
+
+            <ImageView
+                android:id="@+id/caratulaPokemonZafiro"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/caratulaPokemonZafiro"
+                android:src="@drawable/caratula_pokemon_zafiro" />
+
+            <EditText
+                android:id="@+id/gameplayPokemonRubi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/gameplayPokemonRubi"
+                android:padding="8dp"
+                android:focusableInTouchMode="false"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+
+            <ImageView
+                android:id="@+id/gameplayPokemonRubiZafiro"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/gameplayPokemonRubiZafiro"
+                android:src="@drawable/gameplay_pokemon_rubi" />
+
+            <EditText
+                android:id="@+id/textoRojoFuegoVerdeHoja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/infoRojoFuegoVerdeHoja"
+                android:padding="8dp"
+                android:focusableInTouchMode="false"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+
+
+            <ImageView
+                android:id="@+id/caratulaPokemonRojoFuego"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/caratulaPokemonRojoFuego"
+                android:src="@drawable/caratula_pokemon_rojo_fuego" />
+
+            <ImageView
+                android:id="@+id/caratulaPokemonVerdeHoja"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/caratulaPokemonVerdeHoja"
+                android:src="@drawable/caratula_pokemon_verde_hoja" />
+
+
+            <EditText
+                android:id="@+id/gameplayPokemonRojoFuego"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/gameplayPokemonRojoFuego"
+                android:padding="8dp"
+                android:focusableInTouchMode="false"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+
+            <ImageView
+                android:id="@+id/gameplayPokemonRojoFuegoVerdeHoja"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/gameplayPokemonRojoFuegoVerdeHoja"
+                android:src="@drawable/gameplay_pokemon_rojo_fuego" />
+
+            <EditText
+                android:id="@+id/textoEsmeralda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/infoEsmeralda"
+                android:padding="8dp"
+                android:focusableInTouchMode="false"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+
+            <ImageView
+                android:id="@+id/caratulaPokemonEsmeralda"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/caratulaPokemonEsmeralda"
+                android:src="@drawable/caratula_pokemon_esmeralda" />
+
+
+            <EditText
+                android:id="@+id/gameplayPokemonEsmeralda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/gameplayPokemonEsmeralda"
+                android:padding="8dp"
+                android:focusableInTouchMode="false"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+
+            <ImageView
+                android:id="@+id/gameplayPokemonEsmerald"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/gameplayPokemonSsmerald"
+                android:src="@drawable/gameplay_pokemon_esmeralda" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

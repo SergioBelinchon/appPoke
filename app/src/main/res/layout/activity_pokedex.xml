@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".pokedex.PokedexActivity">
+    <!--
+    android:background="@drawable/fondo_pokedex"-->
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/volverPokedex"
+        android:onClick="onBackPressed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"/>
+    <Button
+        android:id="@+id/btnPrimeraGeneracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonPrimeraGen" />
+
+    <Button
+        android:id="@+id/btnSegundaGeneracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonSegundaGen" />
+
+    <Button
+        android:id="@+id/btnTerceraGeneracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonTerceraGen" />
+
+    <Button
+        android:id="@+id/btnCuartaGeneracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonCuartaGen" />
+
+    <Button
+        android:id="@+id/btnQuintaGeneracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonQuintaGen" />
+
+    <Button
+        android:id="@+id/btnSextaGeneracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonSextaGen" />
+
+    <Button
+        android:id="@+id/btnSeptimaGeneracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonSeptimaGen" />
+
+    <Button
+        android:id="@+id/btnOctavaGeneracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonOctavaGen" />
+
+    <Button
+        android:id="@+id/btnNovenaGeneracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonNovenaGen" />
+
+
+
+</LinearLayout>
